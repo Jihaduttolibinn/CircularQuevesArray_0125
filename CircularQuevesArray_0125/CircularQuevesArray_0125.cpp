@@ -68,10 +68,10 @@ public:
 		int REAR_position = REAR;
 
 		// CEK APAKAH ANTRIAN KOSONG
-		if (FRONT == -1){
+		if (FRONT == -1) {
 			cout << "Queue is empty\n";
 			return;
-	}
+		}
 		cout << "Elements in the queue are....\n";
 
 		// JIKA FRONT_position <= REAR _position, iterasi dari FRONT hingga REAR
@@ -82,3 +82,24 @@ public:
 			}
 			cout << endl;
 		}
+
+		else {
+			// JIKA FRONT_position > REAR_position, iterasi dari FRONT gingga akhir array
+			while (FRONT_position <= max - 1) {
+				cout << queue_array[FRONT_position]
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
