@@ -19,7 +19,7 @@ public:
 		cout << "Enter a number: ";
 		cin >> num;
 		cout << endl;
-		
+
 		if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1)) {
 			cout << "\nQueue overflow\n";
 		}
@@ -62,3 +62,13 @@ public:
 		}
 	}
 
+	void display() {
+
+		int FRONT_position = FRONT;
+		int REAR_position = REAR;
+
+		// CEK APAKAH ANTRIAN KOSONG
+		if (FRONT == -1){
+			cout << "Queue is empty\n";
+			return;
+	}
